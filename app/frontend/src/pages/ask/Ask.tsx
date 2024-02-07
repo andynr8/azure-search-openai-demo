@@ -188,7 +188,7 @@ export function Component(): JSX.Element {
         <div className={styles.askContainer}>
             <div className={styles.askTopSection}>
                 <SettingsButton className={styles.settingsButton} onClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)} />
-                <h1 className={styles.askTitle}>Ask your data</h1>
+                <h1 className={styles.askTitle}>Virtueller ISB</h1>
                 <div className={styles.askQuestionInput}>
                     <QuestionInput
                         placeholder="Example: Does my plan cover annual eye exams?"
