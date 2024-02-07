@@ -281,7 +281,7 @@ const Chat = () => {
                         <div className={styles.chatEmptyState}>
                             <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
                             <h1 className={styles.chatEmptyStateTitle}>Virtueller ISB</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Stelle mir eine Frage zu Themen der Informationssicherheit in der Gruppe 24.</h2>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Stelle mir eine Frage zu Themen der Informationssicherheit in der group24.</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                         </div>
                     ) : (
