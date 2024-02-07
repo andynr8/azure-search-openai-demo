@@ -4,7 +4,7 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     "Wie ist der Umgang mit privaten Daten auf group24 Geräten geregelt ?",
-    "Was ist beim Beantragung und Genehmigun von Berechtigungen zu berücksichtigen ?",
+    "Was ist bei der Beantragung und Genehmigung von Berechtigungen zu berücksichtigen ?",
     "Wie melde ich einen Informationssicherheitsvorfall?"
 ];
 
