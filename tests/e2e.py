@@ -69,7 +69,7 @@ def test_chat(page: Page, live_server_url: str):
     # Check initial page state
     page.goto(live_server_url)
     expect(page).to_have_title("GPT + Enterprise data | Sample")
-    expect(page.get_by_role("heading", name="Chat with your data")).to_be_visible()
+    expect(page.get_by_role("heading", name="Stelle mir eine Frage zu Themen der Informationssicherheit in der Gruppe 24")).to_be_visible()
     expect(page.get_by_role("button", name="Clear chat")).to_be_disabled()
     expect(page.get_by_role("button", name="Developer settings")).to_be_enabled()
 
@@ -78,7 +78,7 @@ def test_chat(page: Page, live_server_url: str):
     page.get_by_placeholder("Type a new question (e.g. does my plan cover annual eye exams?)").fill(
         "Whats the dental plan?"
     )
-    page.get_by_role("button", name="Ask question button").click()
+    page.get_by_role("button", name="Los Los Los").click()
 
     expect(page.get_by_text("Whats the dental plan?")).to_be_visible()
     expect(page.get_by_text("The capital of France is Paris.")).to_be_visible()
